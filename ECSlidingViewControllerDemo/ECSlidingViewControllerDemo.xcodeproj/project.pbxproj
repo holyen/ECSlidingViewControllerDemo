@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6609E9E61728CF0F00D0E574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609E9E51728CF0F00D0E574 /* UIKit.framework */; };
+		6609E9E81728CF0F00D0E574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609E9E71728CF0F00D0E574 /* Foundation.framework */; };
+		6609E9EA1728CF0F00D0E574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609E9E91728CF0F00D0E574 /* CoreGraphics.framework */; };
+		6609E9F01728CF0F00D0E574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6609E9EE1728CF0F00D0E574 /* InfoPlist.strings */; };
+		6609E9F21728CF0F00D0E574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609E9F11728CF0F00D0E574 /* main.m */; };
+		6609E9F61728CF0F00D0E574 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609E9F51728CF0F00D0E574 /* AppDelegate.m */; };
+		6609E9F81728CF0F00D0E574 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609E9F71728CF0F00D0E574 /* Default.png */; };
+		6609E9FA1728CF0F00D0E574 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609E9F91728CF0F00D0E574 /* Default@2x.png */; };
+		6609E9FC1728CF0F00D0E574 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6609E9FB1728CF0F00D0E574 /* Default-568h@2x.png */; };
+		6609EA181728CFD700D0E574 /* ADSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA171728CFD700D0E574 /* ADSlidingViewController.m */; };
+		6609EA1D1728D00500D0E574 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA1A1728D00500D0E574 /* ECSlidingViewController.m */; };
+		6609EA1E1728D00500D0E574 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA1C1728D00500D0E574 /* UIImage+ImageWithUIView.m */; };
+		6609EA391728D09600D0E574 /* ADFirstTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA221728D09600D0E574 /* ADFirstTopViewController.m */; };
+		6609EA3A1728D09600D0E574 /* ADFirstTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA231728D09600D0E574 /* ADFirstTopViewController.xib */; };
+		6609EA3B1728D09600D0E574 /* ADInitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA251728D09600D0E574 /* ADInitialSlidingViewController.m */; };
+		6609EA3C1728D09600D0E574 /* ADInitialSlidingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA261728D09600D0E574 /* ADInitialSlidingViewController.xib */; };
+		6609EA3D1728D09600D0E574 /* ADMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA281728D09600D0E574 /* ADMenuViewController.m */; };
+		6609EA3E1728D09600D0E574 /* ADMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA291728D09600D0E574 /* ADMenuViewController.xib */; };
+		6609EA3F1728D09600D0E574 /* ADNavigationTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA2B1728D09600D0E574 /* ADNavigationTopViewController.m */; };
+		6609EA401728D09600D0E574 /* ADNavigationTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA2C1728D09600D0E574 /* ADNavigationTopViewController.xib */; };
+		6609EA411728D09600D0E574 /* ADSampleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA2E1728D09600D0E574 /* ADSampleTableViewController.m */; };
+		6609EA421728D09600D0E574 /* ADSampleTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA2F1728D09600D0E574 /* ADSampleTableViewController.xib */; };
+		6609EA431728D09600D0E574 /* ADSecondTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA311728D09600D0E574 /* ADSecondTopViewController.m */; };
+		6609EA441728D09600D0E574 /* ADSecondTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA321728D09600D0E574 /* ADSecondTopViewController.xib */; };
+		6609EA451728D09600D0E574 /* ADThirdTopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA341728D09600D0E574 /* ADThirdTopViewController.m */; };
+		6609EA461728D09600D0E574 /* ADThirdTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA351728D09600D0E574 /* ADThirdTopViewController.xib */; };
+		6609EA471728D09600D0E574 /* ADUnderRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA371728D09600D0E574 /* ADUnderRightViewController.m */; };
+		6609EA481728D09600D0E574 /* ADUnderRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA381728D09600D0E574 /* ADUnderRightViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6609E9E21728CF0F00D0E574 /* ECSlidingViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECSlidingViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6609E9E51728CF0F00D0E574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6609E9E71728CF0F00D0E574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6609E9E91728CF0F00D0E574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6609E9ED1728CF0F00D0E574 /* ECSlidingViewControllerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ECSlidingViewControllerDemo-Info.plist"; sourceTree = "<group>"; };
+		6609E9EF1728CF0F00D0E574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6609E9F11728CF0F00D0E574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6609E9F31728CF0F00D0E574 /* ECSlidingViewControllerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ECSlidingViewControllerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		6609E9F41728CF0F00D0E574 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6609E9F51728CF0F00D0E574 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6609E9F71728CF0F00D0E574 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6609E9F91728CF0F00D0E574 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6609E9FB1728CF0F00D0E574 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6609EA161728CFD700D0E574 /* ADSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSlidingViewController.h; sourceTree = "<group>"; };
+		6609EA171728CFD700D0E574 /* ADSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSlidingViewController.m; sourceTree = "<group>"; };
+		6609EA191728D00500D0E574 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		6609EA1A1728D00500D0E574 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		6609EA1B1728D00500D0E574 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		6609EA1C1728D00500D0E574 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		6609EA211728D09600D0E574 /* ADFirstTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFirstTopViewController.h; sourceTree = "<group>"; };
+		6609EA221728D09600D0E574 /* ADFirstTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFirstTopViewController.m; sourceTree = "<group>"; };
+		6609EA231728D09600D0E574 /* ADFirstTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADFirstTopViewController.xib; sourceTree = "<group>"; };
+		6609EA241728D09600D0E574 /* ADInitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADInitialSlidingViewController.h; sourceTree = "<group>"; };
+		6609EA251728D09600D0E574 /* ADInitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADInitialSlidingViewController.m; sourceTree = "<group>"; };
+		6609EA261728D09600D0E574 /* ADInitialSlidingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADInitialSlidingViewController.xib; sourceTree = "<group>"; };
+		6609EA271728D09600D0E574 /* ADMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMenuViewController.h; sourceTree = "<group>"; };
+		6609EA281728D09600D0E574 /* ADMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMenuViewController.m; sourceTree = "<group>"; };
+		6609EA291728D09600D0E574 /* ADMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADMenuViewController.xib; sourceTree = "<group>"; };
+		6609EA2A1728D09600D0E574 /* ADNavigationTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNavigationTopViewController.h; sourceTree = "<group>"; };
+		6609EA2B1728D09600D0E574 /* ADNavigationTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNavigationTopViewController.m; sourceTree = "<group>"; };
+		6609EA2C1728D09600D0E574 /* ADNavigationTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADNavigationTopViewController.xib; sourceTree = "<group>"; };
+		6609EA2D1728D09600D0E574 /* ADSampleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSampleTableViewController.h; sourceTree = "<group>"; };
+		6609EA2E1728D09600D0E574 /* ADSampleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSampleTableViewController.m; sourceTree = "<group>"; };
+		6609EA2F1728D09600D0E574 /* ADSampleTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADSampleTableViewController.xib; sourceTree = "<group>"; };
+		6609EA301728D09600D0E574 /* ADSecondTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSecondTopViewController.h; sourceTree = "<group>"; };
+		6609EA311728D09600D0E574 /* ADSecondTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSecondTopViewController.m; sourceTree = "<group>"; };
+		6609EA321728D09600D0E574 /* ADSecondTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADSecondTopViewController.xib; sourceTree = "<group>"; };
+		6609EA331728D09600D0E574 /* ADThirdTopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADThirdTopViewController.h; sourceTree = "<group>"; };
+		6609EA341728D09600D0E574 /* ADThirdTopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADThirdTopViewController.m; sourceTree = "<group>"; };
+		6609EA351728D09600D0E574 /* ADThirdTopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADThirdTopViewController.xib; sourceTree = "<group>"; };
+		6609EA361728D09600D0E574 /* ADUnderRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUnderRightViewController.h; sourceTree = "<group>"; };
+		6609EA371728D09600D0E574 /* ADUnderRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUnderRightViewController.m; sourceTree = "<group>"; };
+		6609EA381728D09600D0E574 /* ADUnderRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUnderRightViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6609E9DF1728CF0F00D0E574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609E9E61728CF0F00D0E574 /* UIKit.framework in Frameworks */,
+				6609E9E81728CF0F00D0E574 /* Foundation.framework in Frameworks */,
+				6609E9EA1728CF0F00D0E574 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6609E9D91728CF0F00D0E574 = {
+			isa = PBXGroup;
+			children = (
+				6609E9EB1728CF0F00D0E574 /* Classes */,
+				6609E9E41728CF0F00D0E574 /* Frameworks */,
+				6609E9E31728CF0F00D0E574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6609E9E31728CF0F00D0E574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6609E9E21728CF0F00D0E574 /* ECSlidingViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6609E9E41728CF0F00D0E574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6609E9E51728CF0F00D0E574 /* UIKit.framework */,
+				6609E9E71728CF0F00D0E574 /* Foundation.framework */,
+				6609E9E91728CF0F00D0E574 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6609E9EB1728CF0F00D0E574 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA131728CFB100D0E574 /* UI */,
+				6609E9F41728CF0F00D0E574 /* AppDelegate.h */,
+				6609E9F51728CF0F00D0E574 /* AppDelegate.m */,
+				6609E9EC1728CF0F00D0E574 /* Supporting Files */,
+			);
+			name = Classes;
+			path = ECSlidingViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		6609E9EC1728CF0F00D0E574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6609E9ED1728CF0F00D0E574 /* ECSlidingViewControllerDemo-Info.plist */,
+				6609E9EE1728CF0F00D0E574 /* InfoPlist.strings */,
+				6609E9F11728CF0F00D0E574 /* main.m */,
+				6609E9F31728CF0F00D0E574 /* ECSlidingViewControllerDemo-Prefix.pch */,
+				6609E9F71728CF0F00D0E574 /* Default.png */,
+				6609E9F91728CF0F00D0E574 /* Default@2x.png */,
+				6609E9FB1728CF0F00D0E574 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6609EA131728CFB100D0E574 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA201728D06D00D0E574 /* ViewControllers */,
+				6609EA141728CFB100D0E574 /* SlidingViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		6609EA141728CFB100D0E574 /* SlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA151728CFB100D0E574 /* ECSlidingViewController */,
+				6609EA161728CFD700D0E574 /* ADSlidingViewController.h */,
+				6609EA171728CFD700D0E574 /* ADSlidingViewController.m */,
+			);
+			path = SlidingViewController;
+			sourceTree = "<group>";
+		};
+		6609EA151728CFB100D0E574 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA191728D00500D0E574 /* ECSlidingViewController.h */,
+				6609EA1A1728D00500D0E574 /* ECSlidingViewController.m */,
+				6609EA1B1728D00500D0E574 /* UIImage+ImageWithUIView.h */,
+				6609EA1C1728D00500D0E574 /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		6609EA201728D06D00D0E574 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA211728D09600D0E574 /* ADFirstTopViewController.h */,
+				6609EA221728D09600D0E574 /* ADFirstTopViewController.m */,
+				6609EA231728D09600D0E574 /* ADFirstTopViewController.xib */,
+				6609EA241728D09600D0E574 /* ADInitialSlidingViewController.h */,
+				6609EA251728D09600D0E574 /* ADInitialSlidingViewController.m */,
+				6609EA261728D09600D0E574 /* ADInitialSlidingViewController.xib */,
+				6609EA271728D09600D0E574 /* ADMenuViewController.h */,
+				6609EA281728D09600D0E574 /* ADMenuViewController.m */,
+				6609EA291728D09600D0E574 /* ADMenuViewController.xib */,
+				6609EA2A1728D09600D0E574 /* ADNavigationTopViewController.h */,
+				6609EA2B1728D09600D0E574 /* ADNavigationTopViewController.m */,
+				6609EA2C1728D09600D0E574 /* ADNavigationTopViewController.xib */,
+				6609EA2D1728D09600D0E574 /* ADSampleTableViewController.h */,
+				6609EA2E1728D09600D0E574 /* ADSampleTableViewController.m */,
+				6609EA2F1728D09600D0E574 /* ADSampleTableViewController.xib */,
+				6609EA301728D09600D0E574 /* ADSecondTopViewController.h */,
+				6609EA311728D09600D0E574 /* ADSecondTopViewController.m */,
+				6609EA321728D09600D0E574 /* ADSecondTopViewController.xib */,
+				6609EA331728D09600D0E574 /* ADThirdTopViewController.h */,
+				6609EA341728D09600D0E574 /* ADThirdTopViewController.m */,
+				6609EA351728D09600D0E574 /* ADThirdTopViewController.xib */,
+				6609EA361728D09600D0E574 /* ADUnderRightViewController.h */,
+				6609EA371728D09600D0E574 /* ADUnderRightViewController.m */,
+				6609EA381728D09600D0E574 /* ADUnderRightViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6609E9E11728CF0F00D0E574 /* ECSlidingViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6609EA081728CF0F00D0E574 /* Build configuration list for PBXNativeTarget "ECSlidingViewControllerDemo" */;
+			buildPhases = (
+				6609E9DE1728CF0F00D0E574 /* Sources */,
+				6609E9DF1728CF0F00D0E574 /* Frameworks */,
+				6609E9E01728CF0F00D0E574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ECSlidingViewControllerDemo;
+			productName = ECSlidingViewControllerDemo;
+			productReference = 6609E9E21728CF0F00D0E574 /* ECSlidingViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6609E9DA1728CF0F00D0E574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = AnyData.com;
+			};
+			buildConfigurationList = 6609E9DD1728CF0F00D0E574 /* Build configuration list for PBXProject "ECSlidingViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6609E9D91728CF0F00D0E574;
+			productRefGroup = 6609E9E31728CF0F00D0E574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6609E9E11728CF0F00D0E574 /* ECSlidingViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6609E9E01728CF0F00D0E574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609E9F01728CF0F00D0E574 /* InfoPlist.strings in Resources */,
+				6609E9F81728CF0F00D0E574 /* Default.png in Resources */,
+				6609E9FA1728CF0F00D0E574 /* Default@2x.png in Resources */,
+				6609E9FC1728CF0F00D0E574 /* Default-568h@2x.png in Resources */,
+				6609EA3A1728D09600D0E574 /* ADFirstTopViewController.xib in Resources */,
+				6609EA3C1728D09600D0E574 /* ADInitialSlidingViewController.xib in Resources */,
+				6609EA3E1728D09600D0E574 /* ADMenuViewController.xib in Resources */,
+				6609EA401728D09600D0E574 /* ADNavigationTopViewController.xib in Resources */,
+				6609EA421728D09600D0E574 /* ADSampleTableViewController.xib in Resources */,
+				6609EA441728D09600D0E574 /* ADSecondTopViewController.xib in Resources */,
+				6609EA461728D09600D0E574 /* ADThirdTopViewController.xib in Resources */,
+				6609EA481728D09600D0E574 /* ADUnderRightViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6609E9DE1728CF0F00D0E574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6609E9F21728CF0F00D0E574 /* main.m in Sources */,
+				6609E9F61728CF0F00D0E574 /* AppDelegate.m in Sources */,
+				6609EA181728CFD700D0E574 /* ADSlidingViewController.m in Sources */,
+				6609EA1D1728D00500D0E574 /* ECSlidingViewController.m in Sources */,
+				6609EA1E1728D00500D0E574 /* UIImage+ImageWithUIView.m in Sources */,
+				6609EA391728D09600D0E574 /* ADFirstTopViewController.m in Sources */,
+				6609EA3B1728D09600D0E574 /* ADInitialSlidingViewController.m in Sources */,
+				6609EA3D1728D09600D0E574 /* ADMenuViewController.m in Sources */,
+				6609EA3F1728D09600D0E574 /* ADNavigationTopViewController.m in Sources */,
+				6609EA411728D09600D0E574 /* ADSampleTableViewController.m in Sources */,
+				6609EA431728D09600D0E574 /* ADSecondTopViewController.m in Sources */,
+				6609EA451728D09600D0E574 /* ADThirdTopViewController.m in Sources */,
+				6609EA471728D09600D0E574 /* ADUnderRightViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6609E9EE1728CF0F00D0E574 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6609E9EF1728CF0F00D0E574 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6609EA061728CF0F00D0E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6609EA071728CF0F00D0E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6609EA091728CF0F00D0E574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECSlidingViewControllerDemo/ECSlidingViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewControllerDemo/ECSlidingViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6609EA0A1728CF0F00D0E574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ECSlidingViewControllerDemo/ECSlidingViewControllerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ECSlidingViewControllerDemo/ECSlidingViewControllerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6609E9DD1728CF0F00D0E574 /* Build configuration list for PBXProject "ECSlidingViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609EA061728CF0F00D0E574 /* Debug */,
+				6609EA071728CF0F00D0E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6609EA081728CF0F00D0E574 /* Build configuration list for PBXNativeTarget "ECSlidingViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6609EA091728CF0F00D0E574 /* Debug */,
+				6609EA0A1728CF0F00D0E574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6609E9DA1728CF0F00D0E574 /* Project object */;
+}
