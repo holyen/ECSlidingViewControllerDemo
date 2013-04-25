@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADSlidingViewController.h"
+#import "ADMenuViewController.h"
+#import "ADSampleTableViewController.h"
 
 @interface ADNavigationTopViewController : UIViewController
+- (IBAction)menuTap:(id)sender;
+- (IBAction)navToVC1:(id)sender;
+- (IBAction)navToVC2:(id)sender;
+- (IBAction)navToVC3:(id)sender;
 
 @end

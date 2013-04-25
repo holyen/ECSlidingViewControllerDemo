@@ -30,15 +30,6 @@ static CGAffineTransform transformForOrientation(UIInterfaceOrientation orientat
     }
 }
 
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
-}
-
 - (void)transitionToMainViewController
 {
     BOOL isPhone = UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone;

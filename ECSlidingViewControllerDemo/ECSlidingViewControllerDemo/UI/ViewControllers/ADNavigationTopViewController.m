@@ -8,31 +8,28 @@
 
 #import "ADNavigationTopViewController.h"
 
-@interface ADNavigationTopViewController ()
-
-@end
-
 @implementation ADNavigationTopViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewWillAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    [super viewWillAppear:animated];
+    
+    if (![self.slidingViewController.underLeftViewController isKindOfClass:[ADMenuViewController class]]) {
+        self.slidingViewController.underLeftViewController = [[ADMenuViewController alloc] initWithNibName:nil bundle:nil];
     }
-    return self;
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+- (IBAction)menuTap:(id)sender {
+    [self.slidingViewController anchorTopViewTo:ECRight];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)navToVC1:(id)sender {
+    [self.navigationController pushViewController:[[ADSampleTableViewController alloc] initWithNibName:nil bundle:nil] animated:YES];
 }
 
+- (IBAction)navToVC2:(id)sender {
+}
+
+- (IBAction)navToVC3:(id)sender {
+}
 @end

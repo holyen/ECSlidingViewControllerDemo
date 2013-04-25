@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADSlidingViewController.h"
+#import "ADMenuViewController.h"
 
 @interface ADSecondTopViewController : UIViewController
+- (IBAction)menuTap:(id)sender;
 
 @end

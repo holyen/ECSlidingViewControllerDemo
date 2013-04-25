@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ADSlidingViewController.h"
 
-@interface ADMenuViewController : UIViewController
+@interface ADMenuViewController : UIViewController <UITableViewDataSource, UITabBarControllerDelegate, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end

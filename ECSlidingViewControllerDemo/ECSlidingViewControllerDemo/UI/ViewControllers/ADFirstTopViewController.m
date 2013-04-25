@@ -8,24 +8,21 @@
 
 #import "ADFirstTopViewController.h"
 
-@interface ADFirstTopViewController ()
-
-@end
-
 @implementation ADFirstTopViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewWillAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-
+    [super viewWillAppear:animated];
+    self.view.layer.shadowOpacity = 0.75f;
+    self.view.layer.shadowRadius = 10.0f;
+    self.view.layer.shadowColor = [UIColor blackColor].CGColor;
+    
+    if (!self.slidingViewController.underLeftViewController) {
+        self.slidingViewController.underLeftViewController = [[ADMenuViewController alloc] initWithNibName:nil bundle:nil];
     }
-    return self;
-}
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
+    if (!self.slidingViewController.underRightViewController) {
+        self.slidingViewController.underRightViewController = [[ADUnderRightViewController alloc] initWithNibName:nil bundle:nil];
+    }
 }
 
 - (IBAction)revealMenu:(id)sender

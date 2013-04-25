@@ -191,3 +191,12 @@ NSString * const ADSlidingViewFrontDidResetNotification         = @"ECSlidingVie
 }
 
 @end
+
+@implementation UIViewController (ADSlidingViewController)
+
+- (ADSlidingViewController *)slidingController
+{
+    return (ADSlidingViewController *) [self slidingViewController];
+}
+
+@end

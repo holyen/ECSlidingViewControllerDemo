@@ -14,25 +14,16 @@
 
 @implementation ADSecondTopViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (void)viewWillAppear:(BOOL)animated
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
+    [super viewWillAppear:animated];
+    if (![self.slidingViewController.underLeftViewController isKindOfClass:[ADMenuViewController class]]) {
+        self.slidingController.underLeftViewController = [[ADMenuViewController alloc] initWithNibName:nil bundle:nil];
     }
-    return self;
+    [self.view addGestureRecognizer:self.slidingViewController.panGesture];
 }
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+- (IBAction)menuTap:(id)sender {
+    [self.slidingViewController anchorTopViewTo:ECRight];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
