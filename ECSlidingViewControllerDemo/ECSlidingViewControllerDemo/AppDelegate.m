@@ -12,14 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.viewController = [[ADInitialSlidingViewController alloc] initWithNibName:nil bundle:nil];
-//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-//        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-//    } else {
-//        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-//    }
-    self.window.rootViewController = self.viewController;
+    self.window = [[ADMainWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];    
+    [self.window transitionToMainViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

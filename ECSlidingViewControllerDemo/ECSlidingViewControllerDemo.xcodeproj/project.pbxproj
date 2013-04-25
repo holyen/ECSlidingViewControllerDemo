@@ -35,6 +35,14 @@
 		6609EA461728D09600D0E574 /* ADThirdTopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA351728D09600D0E574 /* ADThirdTopViewController.xib */; };
 		6609EA471728D09600D0E574 /* ADUnderRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA371728D09600D0E574 /* ADUnderRightViewController.m */; };
 		6609EA481728D09600D0E574 /* ADUnderRightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA381728D09600D0E574 /* ADUnderRightViewController.xib */; };
+		6609EA4B1728DFCA00D0E574 /* ADRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA4A1728DFCA00D0E574 /* ADRootViewController.m */; };
+		6609EA4F1728DFFA00D0E574 /* ADiPhoneRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA4D1728DFFA00D0E574 /* ADiPhoneRootViewController.m */; };
+		6609EA501728DFFA00D0E574 /* ADiPhoneRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA4E1728DFFA00D0E574 /* ADiPhoneRootViewController.xib */; };
+		6609EA541728E01900D0E574 /* ADiPadRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA521728E01900D0E574 /* ADiPadRootViewController.m */; };
+		6609EA551728E01900D0E574 /* ADiPadRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6609EA531728E01900D0E574 /* ADiPadRootViewController.xib */; };
+		6609EA581728F3AE00D0E574 /* ADMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA571728F3AE00D0E574 /* ADMainWindow.m */; };
+		6609EA5D1729085300D0E574 /* IVRenderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6609EA5C1729085300D0E574 /* IVRenderHelper.m */; };
+		6609EA5F17290FBF00D0E574 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6609EA5E17290FBF00D0E574 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +89,19 @@
 		6609EA361728D09600D0E574 /* ADUnderRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADUnderRightViewController.h; sourceTree = "<group>"; };
 		6609EA371728D09600D0E574 /* ADUnderRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADUnderRightViewController.m; sourceTree = "<group>"; };
 		6609EA381728D09600D0E574 /* ADUnderRightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADUnderRightViewController.xib; sourceTree = "<group>"; };
+		6609EA491728DFCA00D0E574 /* ADRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRootViewController.h; sourceTree = "<group>"; };
+		6609EA4A1728DFCA00D0E574 /* ADRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADRootViewController.m; sourceTree = "<group>"; };
+		6609EA4C1728DFFA00D0E574 /* ADiPhoneRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADiPhoneRootViewController.h; sourceTree = "<group>"; };
+		6609EA4D1728DFFA00D0E574 /* ADiPhoneRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADiPhoneRootViewController.m; sourceTree = "<group>"; };
+		6609EA4E1728DFFA00D0E574 /* ADiPhoneRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADiPhoneRootViewController.xib; sourceTree = "<group>"; };
+		6609EA511728E01900D0E574 /* ADiPadRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADiPadRootViewController.h; sourceTree = "<group>"; };
+		6609EA521728E01900D0E574 /* ADiPadRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADiPadRootViewController.m; sourceTree = "<group>"; };
+		6609EA531728E01900D0E574 /* ADiPadRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADiPadRootViewController.xib; sourceTree = "<group>"; };
+		6609EA561728F3AE00D0E574 /* ADMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMainWindow.h; sourceTree = "<group>"; };
+		6609EA571728F3AE00D0E574 /* ADMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMainWindow.m; sourceTree = "<group>"; };
+		6609EA5B1729085300D0E574 /* IVRenderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IVRenderHelper.h; sourceTree = "<group>"; };
+		6609EA5C1729085300D0E574 /* IVRenderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IVRenderHelper.m; sourceTree = "<group>"; };
+		6609EA5E17290FBF00D0E574 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6609EA5F17290FBF00D0E574 /* QuartzCore.framework in Frameworks */,
 				6609E9E61728CF0F00D0E574 /* UIKit.framework in Frameworks */,
 				6609E9E81728CF0F00D0E574 /* Foundation.framework in Frameworks */,
 				6609E9EA1728CF0F00D0E574 /* CoreGraphics.framework in Frameworks */,
@@ -117,6 +139,7 @@
 		6609E9E41728CF0F00D0E574 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6609EA5E17290FBF00D0E574 /* QuartzCore.framework */,
 				6609E9E51728CF0F00D0E574 /* UIKit.framework */,
 				6609E9E71728CF0F00D0E574 /* Foundation.framework */,
 				6609E9E91728CF0F00D0E574 /* CoreGraphics.framework */,
@@ -127,10 +150,21 @@
 		6609E9EB1728CF0F00D0E574 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6609EA591729085300D0E574 /* Utility */,
 				6609EA131728CFB100D0E574 /* UI */,
 				6609E9F41728CF0F00D0E574 /* AppDelegate.h */,
 				6609E9F51728CF0F00D0E574 /* AppDelegate.m */,
 				6609E9EC1728CF0F00D0E574 /* Supporting Files */,
+				6609EA491728DFCA00D0E574 /* ADRootViewController.h */,
+				6609EA4A1728DFCA00D0E574 /* ADRootViewController.m */,
+				6609EA4C1728DFFA00D0E574 /* ADiPhoneRootViewController.h */,
+				6609EA4D1728DFFA00D0E574 /* ADiPhoneRootViewController.m */,
+				6609EA4E1728DFFA00D0E574 /* ADiPhoneRootViewController.xib */,
+				6609EA511728E01900D0E574 /* ADiPadRootViewController.h */,
+				6609EA521728E01900D0E574 /* ADiPadRootViewController.m */,
+				6609EA531728E01900D0E574 /* ADiPadRootViewController.xib */,
+				6609EA561728F3AE00D0E574 /* ADMainWindow.h */,
+				6609EA571728F3AE00D0E574 /* ADMainWindow.m */,
 			);
 			name = Classes;
 			path = ECSlidingViewControllerDemo;
@@ -211,6 +245,23 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		6609EA591729085300D0E574 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA5A1729085300D0E574 /* Render */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6609EA5A1729085300D0E574 /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				6609EA5B1729085300D0E574 /* IVRenderHelper.h */,
+				6609EA5C1729085300D0E574 /* IVRenderHelper.m */,
+			);
+			path = Render;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,6 +325,8 @@
 				6609EA441728D09600D0E574 /* ADSecondTopViewController.xib in Resources */,
 				6609EA461728D09600D0E574 /* ADThirdTopViewController.xib in Resources */,
 				6609EA481728D09600D0E574 /* ADUnderRightViewController.xib in Resources */,
+				6609EA501728DFFA00D0E574 /* ADiPhoneRootViewController.xib in Resources */,
+				6609EA551728E01900D0E574 /* ADiPadRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +350,11 @@
 				6609EA431728D09600D0E574 /* ADSecondTopViewController.m in Sources */,
 				6609EA451728D09600D0E574 /* ADThirdTopViewController.m in Sources */,
 				6609EA471728D09600D0E574 /* ADUnderRightViewController.m in Sources */,
+				6609EA4B1728DFCA00D0E574 /* ADRootViewController.m in Sources */,
+				6609EA4F1728DFFA00D0E574 /* ADiPhoneRootViewController.m in Sources */,
+				6609EA541728E01900D0E574 /* ADiPadRootViewController.m in Sources */,
+				6609EA581728F3AE00D0E574 /* ADMainWindow.m in Sources */,
+				6609EA5D1729085300D0E574 /* IVRenderHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +471,7 @@
 				6609EA0A1728CF0F00D0E574 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

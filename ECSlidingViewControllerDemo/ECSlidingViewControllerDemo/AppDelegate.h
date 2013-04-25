@@ -7,13 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ADInitialSlidingViewController.h"
-
+#import "ADMainWindow.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
-@property (strong, nonatomic) UIViewController *viewController;
+@property (strong, nonatomic) ADMainWindow *window;
 
 @end
